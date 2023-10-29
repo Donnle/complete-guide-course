@@ -1,5 +1,5 @@
-import { TestBed } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import {TestBed} from '@angular/core/testing';
+import {AppComponent} from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
@@ -15,7 +15,7 @@ describe('AppComponent', () => {
   it(`should have as title 'complete-guide'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('complete-guide');
+    expect(app.name).toEqual('complete-guide');
   });
 
   it('should render title', () => {
